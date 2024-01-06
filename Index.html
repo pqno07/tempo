@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análize Meteorológica</title>
+    <link rel="icon" href="/Img/icon.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <script src="/Js/Script.js"></script>
+</head>
+
+<body>
+
+    <div class="box_large">
+        <input class="busca" placeholder="Digite o nome da cidade" onkeypress="onclickbtn()">
+        <button class="buscabtn" onclick="onclickbtn()">
+            <img class="img_busca" alt="Busca" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class="box_medium">
+
+            <h2 class="cidade">Tempo em ...</h2>
+
+            <p class="temp">...ºC</p>
+
+            <div class="box_small">
+
+                <img class="previsao" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="previsaotxt">Tempo</p>
+
+            </div>
+
+            <p class="umidade">Umidade: ...% </p>
+        </div>    
+    </div>
+
+
+</body>
+
+</html>
